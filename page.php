@@ -2,6 +2,16 @@
 
 
 
+
+
+    
+
+    
+
+    <div class="row mb-2">
+        
+       
+    </div>
 </div>
 
 
@@ -19,16 +29,7 @@
                 <h2 class="blog-post-title">
                         <?php the_title(); ?>
                 </h2>
-                <p class="blog-post-meta">
-                    <?php the_time('j F Y'); ?>
-                    by
-                    <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php the_author(); ?></a>
-                
-                    <?php if(has_post_thumbnail()) : ?> 
-                        <div class='post-thumb'>
-                        <?php the_post_thumbnail(); ?>
-                        </div>
-                    <?php endif; ?>
+
 
 
                     <?php the_content(); ?>
@@ -88,16 +89,10 @@
                 <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
             </div> -->
 
-            <!-- 
-            Aight nobody want this older/newer nonsense    
-            
             <nav class="blog-pagination">
                 <a class="btn btn-outline-primary" href="#">Older</a>
                 <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
-            </nav> -->
-
-        <?php comments_template(); ?>
-
+            </nav>
 
         </div>
         <!-- /.blog-main -->

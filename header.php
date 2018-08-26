@@ -49,21 +49,4 @@
         </div>
     </header>
 
-        <nav class="navbar navbar-expand-lg">
-            <?php     
-                wp_nav_menu( array(
-                    'menu'            => 'primary',
-                    'theme_location'  => 'primary',
-                    'depth'	          => 2, // 1 = no dropdowns, 2 = with dropdowns.
-                    'container'       => 'div',
-                    'container_class' => 'nav text-muted blog-header text-dark p-2',
-                    'container_id'    => 'nav-menu-main',
-                    'menu_class'      => 'navbar-nav',
-                    'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
-                    'walker'          => new WP_Bootstrap_Navwalker(),
-                ) );
-
-            ?>
-
-            
-                </nav>
+        
