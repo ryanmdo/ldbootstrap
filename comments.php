@@ -25,8 +25,8 @@
         <?php 
             wp_list_comments($args,$comments);
 
-
-            //args and comments_args are just arrays for defining how the comments are generated
+            
+            //comments_args is some array object that modifies some  wp comment function
             $comments_args = array(
                 'label_submit'=>'Send',
                 'title_reply'=>'Add to the discussion with own comments',

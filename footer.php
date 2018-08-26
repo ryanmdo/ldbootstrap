@@ -18,6 +18,9 @@
     <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.js"></script>
     <!-- <script src="../../assets/js/vendor/holder.min.js"></script> -->
     <script>
+
+      //No idea as to what this Holder thing is
+
       // Holder.addTheme('thumb', {
       //   bg: '#55595c',
       //   fg: '#eceeef',

@@ -34,7 +34,7 @@
         </div>
     </div>
 
-    <div class="row mb-2">
+    <!-- <div class="row mb-2">
         <div class="col-md-6">
             <div class="card flex-md-row mb-4 shadow-sm h-md-250">
                 <div class="card-body d-flex flex-column align-items-start">
@@ -64,6 +64,11 @@
             </div>
         </div>
     </div>
+    
+    These were the two small cards below the jumbotron
+    -->
+
+
 </div>
 
 
