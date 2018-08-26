@@ -88,8 +88,7 @@
                 <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
             </div> -->
 
-            <!-- 
-            Aight nobody want this older/newer nonsense    
+  
             
             <nav class="blog-pagination">
                 <a class="btn btn-outline-primary" href="#">Older</a>

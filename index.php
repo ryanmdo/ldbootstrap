@@ -154,16 +154,12 @@
                 <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
             </div> -->
 
-            <nav class="blog-pagination">
-                <a class="btn btn-outline-primary" href="#">Older</a>
-                <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
-            </nav>
 
         </div>
         <!-- /.blog-main -->
 
         <aside class="col-md-4 blog-sidebar">
-            <div class="p-3 mb-3 bg-light rounded">
+            <!-- <div class="p-3 mb-3 bg-light rounded">
                 <h4 class="font-italic">About</h4>
                 <p class="mb-0">Etiam porta
                     <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia
@@ -225,7 +221,14 @@
                         <a href="#">Facebook</a>
                     </li>
                 </ol>
-            </div>
+            </div> -->
+
+            <!-- Keep the pre-exisitng static html divs for the sidebar -->
+
+
+            <?php if(is_active_sidebar('sidebar')): ?>
+            <?php dynamic_sidebar('sidebar'); ?>
+                <?php endif; ?>
         </aside>
         <!-- /.blog-sidebar -->
 

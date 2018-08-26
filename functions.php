@@ -38,7 +38,30 @@
     add_filter('excerpt_length','set_excerpt_length');
 
 
-    
 
+    function wpb_init_widgets($id){
+
+        register_sidebar(array(
+
+            'name'=> 'Widget Sidebar',
+            'id'=>'sidebar',
+            
+            // sidebar-module is used because that is the class of the existing static
+            // HTML siderbar divs
+            // </div>, because it does need to be included
+            'before_widget'=>'<div class="siderbar-module">',
+            'after_widget'=>'</div>',
+
+            //  Tags for titles for the widget also must be
+            //  specified and defined
+            'before_title'=>'<h3>',
+            'after_title'=>'</h4>'
+
+        ));
+
+
+    }
+
+    add_action('widgets_init', 'wpb_init_widgets');
 
 ?>
