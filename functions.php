@@ -49,7 +49,7 @@
             // sidebar-module is used because that is the class of the existing static
             // HTML siderbar divs
             // </div>, because it does need to be included
-            'before_widget'=>'<div class="siderbar-module">',
+            'before_widget'=>'<div class="sidebar-module justify-right">',
             'after_widget'=>'</div>',
 
             //  Tags for titles for the widget also must be
