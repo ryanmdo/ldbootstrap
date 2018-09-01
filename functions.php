@@ -64,4 +64,16 @@
 
     add_action('widgets_init', 'wpb_init_widgets');
 
+    //Adding the custom header image
+
+    $args = array(
+        'width'         => 625,
+        'height'        => 225,
+        'flex-width'    => true,
+        'flex-height'   => true,
+        'default-image' => get_template_directory_uri() . '/images/ld-header-logo.png',
+    );
+
+    add_theme_support( 'custom-header', $args );
+
 ?>

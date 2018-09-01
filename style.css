@@ -80,9 +80,9 @@ Text Domain: ldbootstrap
     flex: 0 0 auto;
   }
   
-  .h-250 { height: 250px; }
+  .h-250 { height: 300px; }
   @media (min-width: 768px) {
-    .h-md-250 { height: 250px; }
+    .h-md-250 { height: 300px; }
   }
   
   /*
