@@ -16,8 +16,10 @@
     <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-    <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet"> -->
+    
+   
+    <!-- <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet"> -->
 
     <?php wp_head(); ?>
 
