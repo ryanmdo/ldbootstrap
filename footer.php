@@ -3,12 +3,12 @@
       &copy; <?php echo Date('Y'); ?> <?php bloginfo()?>
     </p>
       <p>
-        <a href="#">Back to top</a>
+        <a href="#">Back to Top</a>
       </p>
     </footer>
-
-
+    
     <?php wp_footer(); ?>
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -27,5 +27,9 @@
       //   text: 'Thumbnail'
       // });
     </script>
+
+
+  
+
   </body>
 </html>

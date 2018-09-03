@@ -10,10 +10,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: ldbootstrap
 
 */
-@font-face {
+/* @font-face {
   font-family: Futura;
   src: url('/fonts/Futura-Bold.ttf');
-}
+} */
 
 /* stylelint-disable selector-list-comma-newline-after */
 .blog-header {

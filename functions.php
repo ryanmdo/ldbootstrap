@@ -1,6 +1,6 @@
 
 
-<?php
+ <?php
     //Register nav walker class alias
     require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 
@@ -18,7 +18,7 @@
 
         //Nav Menus
         register_nav_menus( array(
-            'primary' => __( 'Primary Menu','THEMENAME' ),
+            'primary' => __( 'Primary Menu','ldbootstrap' ),
         ) );
 
     }
@@ -75,7 +75,4 @@
     );
 
     add_theme_support( 'custom-header', $args );
-
-
-
-?>
+    
